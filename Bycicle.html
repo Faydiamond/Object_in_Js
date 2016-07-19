@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Bycicle</title>
+    <h1>make to click about button</h1><br><br>
+    <input type="button" value="Color" onclick="MyColor();">
+  </head>
+  <body>
+    <script type="text/javascript">
+    //Declaro el objeto:
+      var Bycicle={
+        Color:"Blue",
+        Material:"Metal",
+        Brand:"Piraña"
+      };
+      ///////////////////////////////////
+      //funciones:
+      function MyColor()
+      {
+        var MyCo=Bycicle.Color;                                                 //llamo el color de la bici
+        alert("the color of my bycicle is:"+MyCo);                              //mensaje al usuario
+        document.write("the color of my bycicle is:"+MyCo);                     //genero un mensaje en la web
+      }
+      function Materiall()
+      {
+        var Ma=Bycicle.Material;
+        alert("the material of my bycicle is:"+Ma);
+        document.write("the material of my bycicle is:"+Ma);
+      }
+      function Brandd()
+      {
+        var Brr=Bycicle.Brand;
+        alert("the brand of my bycicle is:"+Brr);
+        document.write("the brand of my bycicle is:"+Brr);
+      }
+    </script>
+  </body>
+</html>
